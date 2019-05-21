@@ -1,0 +1,2 @@
+2019-05-21 23:03:21,849 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-21 23:03:57,363 [Worker-5: Creating project "rt"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.ky:rt:0.0.1-SNAPSHOT @ C:\Users\aweikn\Documents\rt-work\rt\pom.xml.
