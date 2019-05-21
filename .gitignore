@@ -1,6 +1,6 @@
 
 
-*.metadate/*
+*.metadata
 *.settings
 
 /.metadata/
