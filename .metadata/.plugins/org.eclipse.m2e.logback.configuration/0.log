@@ -47,3 +47,5 @@
 2019-05-22 00:14:06,939 [Worker-36: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ky:rt-web:0.0.1-SNAPSHOT @ C:\Users\aweikn\Documents\rt-work\rt\rt-web\pom.xml.
 2019-05-22 00:14:09,040 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
 2019-05-22 00:14:09,040 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-22 00:14:09,040 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-22 00:14:09,040 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\aweikn\Documents\rt-work\rt\rt-web\src\test\resources
