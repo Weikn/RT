@@ -1,9 +1,10 @@
-package com.ky.rt.run;
+package com.ky.rt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Configuration;
 
-@SpringBootApplication
+@SpringBootApplication(exclude = {})
 public class RtApplication {
 
 	public static void main(String[] args) {
