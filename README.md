@@ -6,13 +6,13 @@ create date  2019.05.21
 
 modify 2019.05.22
 
- ¹¹½¨ÏîÄ¿¹¹¼Ü
- ·Ö²ã 
- 	base 	Êı¾İÁ¬½Ó²ã
-	service ·şÎñ²ã  °üº¬ÊµÏÖ	
-	web	Ò³ÃæºÍcontroller
- Ìí¼Óspring boot ÒÀÀµ maven ÒÀÀµÏÂÔØjar
- ½¨ÒéÌæ»» setting.xml ¸ü»»Îª´Ó°¢ÀïÔÆÏÂÔØ ¿ìËÙ
+ æ„å»ºé¡¹ç›®æ„æ¶
+ åˆ†å±‚ 
+ 	base 	æ•°æ®è¿æ¥å±‚
+	service æœåŠ¡å±‚  åŒ…å«å®ç°	
+	web	é¡µé¢å’Œcontroller
+ æ·»åŠ spring boot ä¾èµ– maven ä¾èµ–ä¸‹è½½jar
+ å»ºè®®æ›¿æ¢ setting.xml æ›´æ¢ä¸ºä»é˜¿é‡Œä¸‹è½½ å¿«é€Ÿ
  #<mirror>
  #       <id>alimaven</id>
  #       <name>aliyun maven</name>
