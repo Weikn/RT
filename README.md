@@ -11,7 +11,7 @@ modify 2019.05.22
  	base 	数据连接层
 	service 服务层  包含实现	
 	web	页面和controller
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")  
+![rt](https://github.com/Weikn/RT/tree/master/img/pojectInfo.png "rt")  
 	
 	
  添加spring boot 依赖 maven 依赖下载jar
