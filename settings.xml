@@ -168,20 +168,18 @@ under the License.
 			<mirrorOf>zsmart_snapshots</mirrorOf>
 		</mirror>
 		 -->
-    <mirrors>
-      <mirror>
-        <id>alimaven</id>
-        <name>aliyun maven</name>
-        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-        <mirrorOf>central</mirrorOf>        
-      </mirror>
-  </mirrors>
+    <mirror>
+      <id>alimaven</id>
+      <name>aliyun maven</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+      <mirrorOf>central</mirrorOf>        
+    </mirror>
 		<!-- <mirror>
 			<id>nexus</id>
 			<mirrorOf>*</mirrorOf>
 			<url>http://172.16.22.184:8081/nexus/content/groups/public/</url>
-		</mirror>
-	</mirrors> -->
+		</mirror>-->
+	</mirrors> 
 	<!-- profiles
    | This is a list of profiles which can be activated in a variety of ways, and which can modify
    | the build process. Profiles provided in the settings.xml are intended to provide local machine-
@@ -255,8 +253,8 @@ under the License.
 
 		<profile>
 			<id>zsmart-snapshots</id>
-			<!-- <repositories>
-				<repository>
+	     <repositories>
+						<!--<repository>
 					<id>zsmart_snapshots</id>
 					<url>http://172.16.22.184:8081/nexus/content/repositories/snapshots/</url>
 					<releases>
@@ -267,9 +265,8 @@ under the License.
 						<enabled>true</enabled>
 						<updatePolicy>never</updatePolicy>
 					</snapshots>
-				</repository>
-			</repositories> -->
-      <repository>
+				</repository>-->
+          <repository>
           <id>nexus-aliyun</id>
           <name>Nexus aliyun</name>
           <layout>default</layout>
@@ -280,7 +277,9 @@ under the License.
           <releases>
               <enabled>true</enabled>
           </releases>
-      </repository>
+        </repository>
+			</repositories> 
+    
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
